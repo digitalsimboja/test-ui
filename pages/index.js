@@ -1,9 +1,7 @@
 import Header from '../components/Header'
 import Head from 'next/head'
-import Image from 'next/image'
-import TopCards from '../components/TopCards'
-import BarChart from '../components/BarChart'
-import RecentOrders from '../components/RecentOrders'
+import TopBar from '../components/TopBar'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
@@ -16,12 +14,11 @@ export default function Home() {
       </Head>
       <main className="bg-gray-100 min-h-screen">
         <Header />
-        <TopCards />
-        <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
-          <BarChart />
-          <RecentOrders />
-        </div>
-
+        <hr className='mt-4' />
+        <TopBar />
+        <hr className='' />
+        <Layout />
+     
       </main>
     </>
   )
