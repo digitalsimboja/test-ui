@@ -5,7 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'gt-walsheim': ['GT Walsheim'],
+    },
+    extend: {
+      boxShadow: {
+        'custom': '0px 3px 0px #DFE1E4',
+      },
+    },
   },
   plugins: [],
 }

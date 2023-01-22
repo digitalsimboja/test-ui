@@ -3,7 +3,7 @@ import { BsReverseLayoutSidebarReverse } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <div className="flex justify-between ml-6 mr-6">
+    <div className="flex flex-wrap items-center justify-between">
       <div className="flex-start justify-around mt-4">
         <Link href="/projects">Projects</Link>
         <span className="mx-1">&gt;</span>
@@ -12,7 +12,7 @@ const Header = () => {
         <Link href="/flyte">FLYTE</Link>
       </div>
 
-      <div className="flex mt-2">
+      <div className="flex mt-2 mr-6">
         <div className="relative">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <svg
@@ -24,12 +24,12 @@ const Header = () => {
             </svg>
           </div>
           <input
-            className="form-input py-2 pl-10 pr-5 rounded-md text-gray-700 leading-5 bg-gray-200 placeholder-gray-500 border-gray-300 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out"
+            className="form-input py-2 pl-10 pr-5 w-40 h-8 rounded-md text-gray-700 leading-5 bg-gray-200 placeholder-gray-500 border-gray-300 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out"
             placeholder="Search"
             type="search"
           />
         </div>
-        <div className=" flex items-center ml-3">
+        <div className=" flex ml-3 border rounded-lg items-center p-1">
           <BsReverseLayoutSidebarReverse size={20} />
         </div>
       </div>

@@ -4,20 +4,28 @@ import { TbCloud, TbHeadphones, TbLink, TbMenu2 } from "react-icons/tb";
 
 const TopBar = () => {
   return (
-    <div className="flex p-2 justify-between mt-2 mb-2">
-      <div className="flex justify-between mx-2 items-center">
-        <div className="flex bg-gray-200 rounded-lg border-b-[4px] p-1 ">
-          <TbCloud  size={20}  className="fill-cyan-500" />
+    <div className="flex flex-wrap items-center justify-between mt-2 ">
+      <div className="flex justify-between mx-2 mr-auto">
+        <div className="flex justify-center  w-20 rounded-lg border border-t-[3px] border-b-[4px] items-center">
+          <TbCloud size={16} style={{ fill: "#58B2CB" }} />
           <h2 className="ml-2">25%</h2>
         </div>
-        <div className="ml-4 bg-gray-200 rounded-lg items-center">
-          <h2 className="p-2">Filter</h2>
+        <div className="flex justify-center rounded-lg w-16 border border-t-[3px] border-b-[4px] items-center ml-2">
+          <h2>Filter</h2>
         </div>
       </div>
       <div className="flex justify-between mr-4">
-        <div className="flex justify-between bg-gray-300 rounded-lg ">
-          <RxAvatar size={20} />
-          <RxAvatar size={20} />
+        <div className=" relative flex justify-between rounded-lg ">
+          <img
+            className="w-12 h-12 sm-w-16 sm-h-16 object-cover object-center"
+            src="/images/Ellipse30.svg"
+            alt=""
+          />
+          <img
+            className="w-12 h-12 sm-w-16 sm-h-16 object-cover object-center"
+            src="/images/Ellipse31.svg"
+            alt=""
+          />
         </div>
         <div className="flex justify-between ml-4">
           <div className="flex justify-between bg-gray-200 rounded-sm">

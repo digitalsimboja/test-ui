@@ -14,7 +14,7 @@ import {
 
 export const FlyteOneCard = () => {
   return (
-    <div className="relative h-60 w-full mb-8 mt-4">
+    <div className="relative h-60 w-full">
             <div className="absolute bottom-0 left-0 bg-gray-300 h-full w-full -z-5 rounded-lg "></div>
             <div className="absolute left-2 bottom-2  bg-white h-full w-full z-10 transform rotate-3 rounded-lg">
               <div className="p-2 absolute flex flex-col w-full">
