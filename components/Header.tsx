@@ -5,11 +5,48 @@ const Header = () => {
   return (
     <div className="flex  items-center justify-between ">
       <div className="flex justify-start mt-4">
-        <Link href="/projects">Projects</Link>
-        <span className="mx-1">&gt;</span>
-        <Link href="/cloud-platform">Cloud Platform</Link>
-        <div className="flex bg-gray-200 items-center ml-2 rounded-lg">
-          <Link href="/flyte">FLYTE</Link>
+        <Link href="/projects">
+          <h2 style={{
+            fontFamily: 'GT Walsheim',
+            color: '#282A2F',
+            fontWeight: '500',
+            fontSize: '14px',
+            lineHeight: '20px',
+            letterSpacing: '0.2px',
+            fontStyle: 'normal'
+          }} >Projects</h2>
+</Link>
+        <span style={{
+            fontFamily: 'GT Walsheim',
+            color: '#282A2F',
+            fontWeight: '500',
+            fontSize: '14px',
+            lineHeight: '20px',
+            letterSpacing: '0.2px',
+            fontStyle: 'normal'}} className="mx-1">&gt;</span>
+        <Link href="/cloud-platform">
+        <h2 style={{
+            fontFamily: 'GT Walsheim',
+            color: '#6C6F75',
+            fontWeight: '500',
+            fontSize: '14px',
+            lineHeight: '20px',
+            letterSpacing: '0.2px',
+            fontStyle: 'normal'
+          }} >Cloud Platform</h2>
+        </Link>
+        <div className="flex bg-gray-200 items-center ml-2 rounded-sm ">
+          <Link href="/flyte">
+          <h2 style={{
+            fontFamily: 'GT Walsheim',
+            color: '#6C6F75',
+            fontWeight: '500',
+            fontSize: '14px',
+            lineHeight: '20px',
+            letterSpacing: '0.2px',
+            fontStyle: 'normal'
+          }} >FLYTE</h2>
+          </Link>
         </div>
       </div>
 
@@ -39,3 +76,15 @@ const Header = () => {
 };
 
 export default Header;
+
+// style={{ 
+//   width:" 52px",
+//   height: "20px",
+//   font-family: 'GT Walsheim',
+//   font-style: 'normal',
+//   font-weight: '500',
+//   font-size: '14px',
+//   line-height: '20px',
+//   letter-spacing: '0.2px',
+//   color: '#282A2F'
+// }}
