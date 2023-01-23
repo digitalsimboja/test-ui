@@ -27,15 +27,15 @@ const TopBar = () => {
             alt=""
           />
         </div>
-        <div className="flex justify-between ml-4 items-center">
-          <div className="flex justify-between  rounded-sm">
-            <TbMenu2 size={20} />
-            <RxDashboard size={20} />
+        <div className="flex justify-between ml-4  items-center">
+          <div className="flex justify-between rounded-lg border border-b-[4px] border-t-[2px] p-1">
+            <TbMenu2 className="bg-gray-200 " size={20} />
+            <RxDashboard className="ml-2" size={20} />
           </div>
-          <div className="ml-4rounded-sm">
-            <TbHeadphones size={20} />
+          <div className="ml-4 rounded-lg border border-b-[4px] border-t-[2px] p-1 items-center">
+            <TbHeadphones className="ml-2" size={20} />
           </div>
-          <div className=" flex justify-between ml-4 rounded-sm">
+          <div className="flex justify-between ml-4 rounded-lg  border border-t-[2px] border-b-[4px] p-1">
             <TbLink size={20} />
             <p className="ml-2">Share</p>
           </div>
