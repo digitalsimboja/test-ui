@@ -20,7 +20,7 @@ export const FlyteTwoCard = () => {
         <div className="p-2">
           <h2 className="text-gray-500 ">FLYTE-2</h2>
           <h2 className="font-semibold">Moodboards</h2>
-          <Image width={212} height={80} src={"/images/image2.png"} alt="" />
+          <Image className="w-full" width={212} height={80} src={"/images/image2.png"} alt="" />
           <div className="flex justify-between">
             <div className="items-center inline-block mt-2 p-2 bg-gray-200">
               <h2 className="text-blue-500 font-semibold ">UI Design</h2>

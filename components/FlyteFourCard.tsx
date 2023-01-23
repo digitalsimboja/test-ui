@@ -15,7 +15,7 @@ import { SlCalender } from "react-icons/sl"
 
 export const FlyteFourCard = () => {
   return (
-    <div className="relative h-80 w-full">
+    <div className="relative h-80 w-full mt-4">
       <div className="absolute bottom-0 left-0 bg-gray-200 h-full w-full rounded-lg border border-b-2"></div>
       <div className="absolute left-0 bottom-2 flex flex-col justify-start gap-3 p-2 bg-gray-50 h-full w-full z-10 rounded-lg border border-b-2">
         <h2>FLYTE-4</h2>

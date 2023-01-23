@@ -7,9 +7,9 @@ import { SlCalender } from "react-icons/sl"
 
 export const FlyteFiveCard = () => {
   return (
-    <div className="relative h-80 mt-4 mb-4 w-full">
+    <div className="relative h-80 mt-4 mb-4 w-full gap-3">
       <div className="absolute bottom-0 left-0 bg-gray-200 h-full w-full rounded-lg border border-b-2"></div>
-      <div className="absolute left-0 bottom-2 flex flex-col justify-start gap-3 p-2 bg-gray-50 h-full w-full z-10 rounded-lg border border-b-2">
+      <div className="absolute left-0  flex flex-col justify-start gap-3 p-2 bg-gray-50 h-full w-full z-10 rounded-lg border border-b-2">
         <h2>FLYTE-5</h2>
         <h2>Presentation</h2>
         <p>Help business to clearly define their anuual e-commerce digital strategy by creating a high-level plan.</p>

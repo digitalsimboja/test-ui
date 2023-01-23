@@ -9,8 +9,8 @@ export const FlyteThreeCard = () => {
     <div className="flex flex-col justify-start gap-3 bg-gray-50 border rounded-lg mt-4 mb-4 h-80 w-full">
       <h2>FLYTE-3</h2>
       <h2>Dashboard Design</h2>
-      <div className="flex  items-stretch">
-        <Image width={212} height={80} src={"/images/flyte3.svg"} alt="" />
+      <div className="flex  items-center">
+        <Image className="w-full" width={'40'} height={80} src={"/images/flyte3.svg"} alt="" />
       </div>
       <div className="flex  justify-between">
         <div className="bg-blue-200 rounded-lg inline-block">

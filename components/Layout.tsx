@@ -9,7 +9,7 @@ import FlyteSixCard from "./FlyteSixCard";
 
 const Layout = () => {
   return (
-    <div className="grid sm:grid-cols-4 grid-cols-1 gap-4">
+    <div className="grid sm:grid-cols-4 grid-cols-1 gap-4 ">
       {/* Column 1 */}
       <div className="flex justify-between flex-col ">
         <div className="w-full flex-col">
