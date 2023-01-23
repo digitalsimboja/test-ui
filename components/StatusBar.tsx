@@ -28,14 +28,14 @@ export const StatusBar = () => {
             <TbDots className="ml-2" size={20} />
           </div>
         </div>
-        <span className="border-b-[4px] border-gray-200 w-full"></span>
+        <span className="border-b-[4px] border-gray-200 w-full  mt-4"></span>
       </div>
 
       {/* IN PROGRESS status */}
       <div className="flex flex-col justify-between w-full ">
         <div className="flex justify-between w-full">
           <div className="flex  w-full justify-start">
-          <TbBlur size={20} />
+          <TbBlur style={{ fill: "" }}  size={20} />
             <h2 className=" ml-2  font-bold tracking-tight leading-5 text-gray-900 font-gt-walsheim">
             IN PROGRESS
             </h2>
@@ -48,7 +48,7 @@ export const StatusBar = () => {
             <TbDots className="ml-2" size={20} />
           </div>
         </div>
-        <span className="border-b-[4px] border-gray-200 w-full"></span>
+        <span className="border-b-[4px] border-gray-200 w-full mt-4"></span>
       </div>
    
 
@@ -56,7 +56,7 @@ export const StatusBar = () => {
       <div className="flex flex-col justify-between w-full ">
         <div className="flex justify-between w-full">
           <div className="flex  w-full justify-start">
-          <TbCircleCheck size={20} />
+          <TbCircleCheck style={{ fill: "#78C552" }} size={20} />
             <h2 className=" ml-2  font-bold tracking-tight leading-5 text-gray-900 font-gt-walsheim">
             COMPLETED
             </h2>
@@ -69,7 +69,7 @@ export const StatusBar = () => {
             <TbDots className="ml-2" size={20} />
           </div>
         </div>
-        <span className="border-b-[4px] border-gray-200 w-full "></span>
+        <span className="border-b-[4px] border-gray-200 w-full mt-4 "></span>
       </div>
 
       <div className="hidden md:block"></div>

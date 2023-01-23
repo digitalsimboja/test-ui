@@ -42,7 +42,7 @@ export const FlyteSixCard = () => {
           </div>
           <div className="flex  mr-4 items-center">
             <span>
-              <TbCircleCheck />{" "}
+              <TbCircleCheck style={{ fill: "#78C552" }}  />
             </span>
             <span className="ml-2">Done</span>
           </div>
