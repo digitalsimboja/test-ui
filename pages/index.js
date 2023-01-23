@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main className=" min-h-screen">
         <Header />
-        <hr  className="mt-3 w-full " />
+        <hr  className="mt-3 w-full -ml-20" />
         <TopBar />
         <hr />
         <StatusBar />

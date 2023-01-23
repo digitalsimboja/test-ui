@@ -3,13 +3,14 @@ import { BsReverseLayoutSidebarReverse } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <div className="flex flex-wrap items-center justify-between">
-      <div className="flex-start justify-around mt-4">
+    <div className="flex  items-center justify-between ">
+      <div className="flex justify-start mt-4">
         <Link href="/projects">Projects</Link>
         <span className="mx-1">&gt;</span>
         <Link href="/cloud-platform">Cloud Platform</Link>
-        <span className="mx-1">&gt;</span>
-        <Link href="/flyte">FLYTE</Link>
+        <div className="flex bg-gray-200 items-center ml-2 rounded-lg">
+          <Link href="/flyte">FLYTE</Link>
+        </div>
       </div>
 
       <div className="flex mt-2 mr-6">

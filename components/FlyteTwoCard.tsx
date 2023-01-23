@@ -14,7 +14,7 @@ import { BsChatSquareDots } from "react-icons/bs";
 
 export const FlyteTwoCard = () => {
   return (
-    <div className="relative h-60 w-full mb-4 mt-4">
+    <div className="relative h-60 w-full ">
       <div className="absolute bottom-0 left-0 bg-gray-200 h-full w-full rounded-lg border border-b-2"></div>
       <div className="absolute left-0 bottom-2 p-2 bg-gray-50 h-full w-full z-10 rounded-lg border border-b-2">
         <div className="p-2">
