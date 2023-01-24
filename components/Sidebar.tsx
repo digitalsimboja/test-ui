@@ -1,24 +1,23 @@
-import Link from "next/link";
-import { GiBasketballBall } from "react-icons/gi";
-import { TbBrandOpenSource, TbCup, TbPlus } from "react-icons/tb";
-import { SiBuymeacoffee } from "react-icons/si";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link';
+import Image from 'next/image';
+import { useState } from 'react';
+import { GiBasketballBall } from "react-icons/gi"
+import { SiBuymeacoffee } from "react-icons/si"
+import { TbPlus } from "react-icons/tb"
 
-import { useState } from "react";
-
-const Sidebar = ({ children }) => {
+TbPlus
+export const Sidebar = ({ children }) => {
   const [active, setActive] = useState("home");
-
   return (
-    <div  className="flex bg-gray-50">
-      <div className="fixed w-14 h-screen bg-white border-r-[1px] flex flex-col justify-between">
-        <div className="relative flex flex-col items-center justify-center">
-          <Link href="/" className="mt-3 left-4">
-            <Image width={23} height={31} src="/images/logoMark.svg" alt="" />
-          </Link>
-          <span className="border-b-[1px] border-gray-200 w-8 mt-2 "></span>
-
-          <Link
+    <div className='flex'>
+     
+      <div className='fixed flex flex-col w-14 h-[982px] p-3  bg-white border-r-[1px'>
+        <Link href="#" >
+          <Image className=' ' width={23} height={31} src="/images/logoMark.svg" alt=''/>
+        </Link>
+        <span className='border-b-[1px] border-solid border-[#E9EBEF] top-[54px] w-8 mt-2 items-center left-3'></span>
+        <Link
             href="/app"
             className={
               active === "app"
@@ -26,7 +25,7 @@ const Sidebar = ({ children }) => {
                 : "text-white hover:text-gray-400"
             }
           >
-            <div className="bg-gray-100  hover:bg-gray-200 cursor-pointer w-8 h-8 my-2 p-2  rounded-lg inline-block">
+            <div className="bg-gray-100  hover:bg-gray-200 cursor-pointer w-8 h-8 my-2 p-3  rounded-lg inline-block">
               <Image   width={18} height={18} src="/images/projects.svg" alt="" />
             </div>
           </Link>
@@ -107,10 +106,11 @@ const Sidebar = ({ children }) => {
             } bottom-0`}
           ></div>
         </div>
-      </div>
+
       <main className="ml-20 w-full">{children}</main>
     </div>
-  );
-};
+   
+  )
+}
 
 export default Sidebar;

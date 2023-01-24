@@ -16,7 +16,7 @@ export const StatusBar = () => {
         <div className="flex justify-between w-full ">
           <div className="flex  w-full justify-start">
             <TbCircleDotted size={20} />
-            <h2 className=" ml-2  font-bold tracking-tight leading-5 text-gray-900 font-gt-walsheim">
+            <h2 className=" ml-2  font-bold tracking-tight leading-5 text-todo font-gt-walsheim">
               TODO
             </h2>
             <p className=" ml-2 font-bold tracking-tight leading-5 text-gray-900 font-gt-walsheim">
@@ -56,7 +56,7 @@ export const StatusBar = () => {
       <div className="flex flex-col justify-between w-full ">
         <div className="flex justify-between w-full">
           <div className="flex  w-full justify-start">
-          <TbCircleCheck style={{ fill: "#78C552" }} size={20} />
+          <TbCircleCheck className="fill-check-mark-color text-check-mark-color " size={20} />
             <h2 className=" ml-2  font-bold tracking-tight leading-5 text-gray-900 font-gt-walsheim">
             COMPLETED
             </h2>

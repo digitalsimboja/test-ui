@@ -7,7 +7,7 @@ const TopBar = () => {
     <div className="flex flex-wrap items-center justify-between mt-2 ">
       <div className="flex justify-between mx-2 mr-auto">
         <div className="flex justify-center  w-20 rounded-lg border border-t-[3px] border-b-[4px] items-center">
-          <TbCloud size={16} style={{ fill: "#58B2CB" }} />
+          <TbCloud size={16} className="text-cloud-text fill-current " />
           <h2 className="ml-2">25%</h2>
         </div>
         <div className="flex justify-center rounded-lg w-16 border border-t-[3px] border-b-[4px] items-center ml-2">
